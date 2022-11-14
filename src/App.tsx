@@ -11,6 +11,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
+      <h1>My First TypeScript App!</h1>
       <NewTodo onAddTodo={todoAddHandler}/>
       <TodoList items={todos}/>
     </div>
